@@ -32,11 +32,11 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "build/types/**/*.ts", 
-    "src/app/layout.tsx", 
-    "src/app/page.tsx", 
-    "src/components/hero.tsx", 
-    "src/components/About.tsx"
+    "src/app/layout.tsx",
+    "src/app/page.tsx",
+    "src/components/hero.tsx",
+    "src/components/About.tsx",
+    "build/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"
