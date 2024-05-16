@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  distDir: "build", // Specify the output directory
+  reactStrictMode: true, // Example configuration
 };
 
 export default nextConfig;
