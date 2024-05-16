@@ -29,9 +29,9 @@ const Testimonials = () => {
           maxWidth={"70%"}
           style={{ margin: "0 auto" }}
         >
-          At A Plus, we're passionate about creating a nurturing and joyful
+          At A Plus, we are passionate about creating a nurturing and joyful
           learning environment for every student. Here are just a few examples
-          of how we've impacted our families:
+          of how we have impacted our families:
         </Typography>
       </Grid>
       <Grid item xs={12} sm={6} md={3}>
@@ -127,7 +127,7 @@ const Testimonials = () => {
           </IconButton>
           <CardContent>
             <Typography variant="body2" component="p" textAlign="left" mb={3}>
-              I was nervous about driving, but A Plus Driving School's
+              I was nervous about driving, but A Plus Driving School
               instructors were amazing. They helped me overcome my fears and
               become a confident driver. Their comprehensive curriculum and
               supportive approach made all the difference. Highly recommend!
@@ -239,7 +239,7 @@ const Testimonials = () => {
           </IconButton>
           <CardContent>
             <Typography variant="body2" component="p" textAlign="left" mb={3}>
-              I'm so grateful to A Plus Driving School for helping me get my
+              I am so grateful to A Plus Driving School for helping me get my
               license. The instructors were supportive and thorough, and their
               guidance prepared me well for the road. I highly recommend them to
               anyone looking to learn how to drive.
