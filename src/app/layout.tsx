@@ -1,7 +1,11 @@
+
+
 import type { Metadata } from "next";
-import { ReactNode } from "react"; // Import ReactNode
+import { Inter } from "next/font/google";
 
 
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "A Plus Driving School",
@@ -11,16 +15,24 @@ export const metadata: Metadata = {
   },
 };
 
-interface RootLayoutProps {
-  // Define interface for props
-  children: ReactNode; // Define children prop type as ReactNode
-}
 
-export default function RootLayout({ children }: RootLayoutProps) {
-  // Use defined interface
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
+
+
+
     <html lang="en">
-      <body>{children}</body>
+      <body >
+        {children}
+
+        </body>
     </html>
+
+
+
   );
 }
