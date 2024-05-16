@@ -22,7 +22,7 @@ export async function POST(request: NextRequest) {
 
     const mailOption = {
       from: email,
-      to: ["connect@aplusdrivingschl.com","tenacious@aplusdrivingschl.com"],
+      to: ["aplusdrivingschl@gmail.com"],
       subject: "Product Inquiry",
       html: `<p>Hi There!,</p><p>${message}</p> <p>Best Regards,</p> <p>${name}</p> <p>Contact No,</p> <p>${cell}</p>`,
     };
